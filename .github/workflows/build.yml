@@ -1,3 +1,4 @@
+name: build
 # Runs only on push to main (i.e. after a PR from ci.yml has been merged).
 # Three jobs, strictly sequenced with `needs:`:
 #   1. build             — dotnet publish + terraform plan (two artifacts, nothing deployed yet)
