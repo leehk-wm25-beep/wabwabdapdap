@@ -1,4 +1,4 @@
- name: CI
+name: CI
 # config, but never touches AWS — nothing here creates, changes, or
 # deletes any real infrastructure. That's build.yml's job, and only
 # after a merge to main.
